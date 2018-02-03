@@ -14,6 +14,8 @@
   :license        {:name "Eclipse Public License"
                    :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies   [[org.clojure/clojure "1.6.0"  :scope "provided"]
+                   [com.fasterxml.jackson.core/jackson-core "2.6.7"]
+                   [com.fasterxml.jackson.core/jackson-databind "2.6.7.1"]
                    [boot/base           ~version :scope "provided"]
                    [boot/pod            ~version :scope "compile"]])
 
